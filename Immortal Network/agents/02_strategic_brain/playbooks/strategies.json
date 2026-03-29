@@ -1,0 +1,32 @@
+{
+    "DDoS_ATTACK": {
+        "description": "Massive traffic flood detected.",
+        "primary_action": "TRIGGER_TRAFFIC_REROUTER",
+        "secondary_action": "DEPLOY_DECEPTION_NODES",
+        "priority": "HIGH"
+    },
+    "MALWARE_BREACH": {
+        "description": "Unauthorized code execution or file corruption.",
+        "primary_action": "TRIGGER_GHOST_REPLICATOR",
+        "secondary_action": "ISOLATE_NETWORK_SEGMENT",
+        "priority": "CRITICAL"
+    },
+    "SYSTEM_CRASH": {
+        "description": "Node heartbeat lost or service unresponsive.",
+        "primary_action": "TRIGGER_GHOST_REPLICATOR",
+        "secondary_action": "NOTIFY_AUDIT_LAYER",
+        "priority": "MEDIUM"
+    },
+    "UNAUTHORIZED_ACCESS": {
+        "description": "Brute force or suspicious login attempt.",
+        "primary_action": "DEPLOY_DECEPTION_NODES",
+        "secondary_action": "FIREWALL_LOCKDOWN",
+        "priority": "HIGH"
+    },
+    "HEALTH_CHECK_WARNING": {
+        "description": "Resource exhaustion (High CPU/RAM).",
+        "primary_action": "TRIGGER_TRAFFIC_REROUTER",
+        "secondary_action": "AUTO_SCALE_INSTANCE",
+        "priority": "LOW"
+    }
+}

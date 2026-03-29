@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  immortal-network:
+    build: .
+    container_name: immortal_core
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
+    restart: always

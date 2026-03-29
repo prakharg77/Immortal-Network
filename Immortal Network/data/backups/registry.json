@@ -1,0 +1,7 @@
+{
+    "last_stable_backup": "2024-05-20_0400_SAFE",
+    "backups": [
+        {"id": "v1.0", "status": "VERIFIED"},
+        {"id": "v1.1", "status": "VERIFIED"}
+    ]
+}
